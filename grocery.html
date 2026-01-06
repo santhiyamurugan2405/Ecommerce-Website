@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery | E-Shop</title>
+    <link rel="stylesheet" href="/css/grocery.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+    <div class="nav-left">
+        <img src="/data/images/cart.png" alt="logo" class="logo">
+        <span class="brand">E-Shop</span>
+    </div>
+
+    <div class="nav-center">
+        <input type="text" placeholder="Search products...">
+    </div>
+
+    <div class="nav-right">
+        <a href="login.html">Login</a>
+        <a href="profile.html">Profile</a>
+    </div>
+</header>
+
+<!-- ===== CATEGORY BAR ===== -->
+<nav class="category-bar">
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+    <ul>
+        <li><a href="grocery.html">Grocery</a></li>
+        <li><a href="cosmetics.html">Cosmetics</a></li>
+        <li><a href="electronics.html">Electronics</a></li>
+        <li><a href="furniture.html">Furniture</a></li>
+    </ul>
+</nav>
+
+<!-- ===== SIDE MENU ===== -->
+<div class="side-menu" id="sideMenu">
+    <span class="close-btn" onclick="toggleMenu()">✖</span>
+    <a href="index.html">Home</a>
+    <a href="profile.html">Profile</a>
+    <a href="orders.html">Orders</a>
+    <a href="yourcart.html">Your Cart</a>
+    <a href="help.html">Help</a>
+</div>
+
+<!-- ===== CATEGORY TITLE ===== -->
+<section class="category-title">
+    <h2>Grocery</h2>
+</section>
+
+<!-- ===== PRODUCTS ===== -->
+<section class="products">
+
+    <div class="card">
+        <img src="/data/images/rice.jpg" alt="Rice">
+        <h3>Rice 5kg</h3>
+        <p>₹400</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/oil.jpg" alt="Cooking Oil">
+        <h3>Cooking Oil 1L</h3>
+        <p>₹150</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/sugar.jpg" alt="Sugar">
+        <h3>Sugar 2kg</h3>
+        <p>₹90</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/dal.jpeg" alt="Dal">
+        <h3>Dal 1kg</h3>
+        <p>₹120</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/tea.jpg" alt="Tea">
+        <h3>Tea 500g</h3>
+        <p>₹250</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="/data/images/chilli.jpg" alt="Tea">
+        <h3>Chilli Powder 500g</h3>
+        <p>₹280</p>
+        <button>Add to Cart</button>
+    </div>
+
+</section>
+
+<script src="/javascript/index.js"></script>
+</body>
+</html>

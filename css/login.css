@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: #1F4959;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 30px;
+    filter: invert(1); /* makes black logo white */
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-center input {
+    width: 320px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* ===== LOGIN SECTION ===== */
+.login-section {
+    min-height: calc(100vh - 70px); /* navbar height adjust */
+    background: linear-gradient(135deg, #1F4959, #4fb0c6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* LOGIN CARD */
+.login-card {
+    background: white;
+    width: 330px;          /* reduced */
+    padding: 22px 24px;    /* reduced */
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.22);
+}
+
+/* Smooth entry animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 18px;
+    color: #1F4959;
+    letter-spacing: 1px;
+}
+
+.login-card label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 9px 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.login-card input:focus {
+    border-color: #1F4959;
+    outline: none;
+    box-shadow: 0 0 5px rgba(31,73,89,0.4);
+}
+
+.gender {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+}
+
+.gender label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: normal;
+}
+
+.login-card button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: #1F4959;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.login-card button:hover {
+    background: #163845;
+    transform: translateY(-1px);
+}
+
+.note {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.note span {
+    color: #1F4959;
+    font-weight: bold;
+    cursor: pointer;
+}

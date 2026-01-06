@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | E-Shop</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR (COMMON FOR ALL PAGES) ===== -->
+<header class="navbar">
+    <div class="nav-left">
+        <img src="/data/images/cart.png" alt="logo" class="logo">
+        <span class="brand">Zen</span>
+    </div>
+
+    <div class="nav-center">
+        <input type="text" placeholder="Search products...">
+    </div>
+
+    <div class="nav-right">
+        <a href="/html/login.html">Login</a>
+        <a href="/html/profile.html">Profile</a>
+    </div>
+</header>
+
+<!-- ===== LOGIN SECTION ===== -->
+<section class="login-section">
+    <form class="login-card" onsubmit="return validateLogin()">
+
+        <h2>Login</h2>
+
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Your name">
+
+        <label>Age</label>
+        <input type="number" id="age" placeholder="Your age">
+
+        <label>Phone Number</label>
+        <input type="text" id="phone" placeholder="10-digit number">
+
+        <label>Gender</label>
+        <div class="gender">
+            <label><input type="radio" name="gender"> Male</label>
+            <label><input type="radio" name="gender"> Female</label>
+        </div>
+
+
+        <label>Email</label>
+        <input type="email" id="email" placeholder="example@gmail.com">
+
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Password">
+
+        <button type="submit">Login</button>
+
+        <p class="note">Don’t have an account? <span>Register</span></p>
+
+    </form>
+</section>
+
+<script src="/javascript/login.js"></script>
+</body>
+</html>

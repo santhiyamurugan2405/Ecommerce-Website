@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Furniture | E-Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/furniture.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+    <div class="nav-left">
+        <img src="/data/images/cart.png" class="logo" alt="logo">
+        <span class="brand">E-Shop</span>
+    </div>
+
+    <div class="nav-center">
+        <input type="text" id="search" placeholder="Search furniture...">
+    </div>
+
+    <div class="nav-right">
+        <a href="/html/login.html">Login</a>
+        <a href="/html/profile.html">Profile</a>
+    </div>
+</header>
+
+<!-- ===== CATEGORY BAR ===== -->
+<nav class="category-bar">
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+    <ul>
+        <li><a href="grocery.html">Grocery</a></li>
+        <li><a href="cosmetics.html">Cosmetics</a></li>
+        <li><a href="electronics.html">Electronics</a></li>
+        <li><a href="furniture.html">Furniture</a></li>
+    </ul>
+</nav>
+
+<!-- ===== SIDE MENU ===== -->
+<div class="side-menu" id="sideMenu">
+    <span class="close-btn" onclick="toggleMenu()">✖</span>
+    <a href="index.html">Home</a>
+    <a href="profile.html">Profile</a>
+    <a href="orders.html">Orders</a>
+    <a href="yourcart.html">Your Cart</a>
+    <a href="help.html">Help</a>
+</div>
+
+
+<!-- ===== PAGE TITLE ===== -->
+<h2 class="page-title">Furniture Collection</h2>
+
+<!-- ===== PRODUCTS ===== -->
+<section class="products">
+
+    <div class="card">
+        <img src="/data/images/sofa.jpg" alt="Sofa">
+        <h3>Sofa Set</h3>
+        <p>₹29,999</p>
+        <button onclick="addToCart('Sofa Set')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/chair.jpg" alt="Chair">
+        <h3>Wooden Chair</h3>
+        <p>₹4,999</p>
+        <button onclick="addToCart('Wooden Chair')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/tinning-table.jpg" alt="Table">
+        <h3>Dining Table</h3>
+        <p>₹18,999</p>
+        <button onclick="addToCart('Dining Table')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/bed.webp" alt="Bed">
+        <h3>Queen Size Bed</h3>
+        <p>₹34,999</p>
+        <button onclick="addToCart('Queen Size Bed')">Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="/data/images/beem-bag.jpg" alt="Bed">
+        <h3>Bean bag</h3>
+        <p>₹4,999</p>
+        <button onclick="addToCart('Queen Size Bed')">Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="/data/images/dressing-table.webp" alt="Bed">
+        <h3>Dressing Table</h3>
+        <p>₹14,999</p>
+        <button onclick="addToCart('Queen Size Bed')">Add to Cart</button>
+    </div>
+
+</section>
+
+<script src="/javascript/furniture.js"></script>
+</body>
+</html>

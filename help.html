@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Help & Support | E-Shop</title>
+    <link rel="stylesheet" href="/css/help.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+    <div class="nav-left">
+        <img src="/data/images/cart.png" class="logo" alt="logo">
+        <span class="brand">E-Shop</span>
+    </div>
+
+    <div class="nav-right">
+        <a href="index.html">Home</a>
+        <a href="yourcart.html">Cart</a>
+        <a href="orders.html">Orders</a>
+        <a href="profile.html">Profile</a>
+    </div>
+</header>
+
+<!-- ===== HELP SECTION ===== -->
+<section class="help-section">
+
+    <h1>Help & Support</h1>
+    <p class="subtitle">We are here to help you 24/7</p>
+
+    <!-- ===== CONTACT INFO ===== -->
+    <div class="help-card">
+        <h2>📞 Customer Support</h2>
+        <p><strong>Helpline Number:</strong> +91 98765 43210</p>
+        <p><strong>Toll Free:</strong> 1800-123-456</p>
+        <p><strong>Email:</strong> support@eshop.com</p>
+        <p><strong>Working Hours:</strong> 9:00 AM – 9:00 PM</p>
+    </div>
+
+    <!-- ===== ORDER HELP ===== -->
+    <div class="help-card">
+        <h2>📦 Orders & Delivery</h2>
+        <ul>
+            <li>Orders are delivered within 3–5 working days.</li>
+            <li>You can track your order from the Orders page.</li>
+            <li>Delivery charges depend on your location.</li>
+        </ul>
+    </div>
+
+    <!-- ===== PAYMENT HELP ===== -->
+    <div class="help-card">
+        <h2>💳 Payments</h2>
+        <ul>
+            <li>We accept Debit Card, Credit Card & UPI.</li>
+            <li>Cash on Delivery available for selected locations.</li>
+            <li>Refunds are processed within 5–7 business days.</li>
+        </ul>
+    </div>
+
+    <!-- ===== FAQ ===== -->
+    <div class="help-card">
+        <h2>❓ Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <h4 onclick="toggleFaq(this)">How do I cancel my order?</h4>
+            <p>You can cancel your order from the Orders page before it is shipped.</p>
+        </div>
+
+        <div class="faq">
+            <h4 onclick="toggleFaq(this)">How do I return a product?</h4>
+            <p>Returns are accepted within 7 days of delivery. Contact customer support.</p>
+        </div>
+
+        <div class="faq">
+            <h4 onclick="toggleFaq(this)">Is my payment secure?</h4>
+            <p>Yes, all payments are encrypted and 100% secure.</p>
+        </div>
+    </div>
+
+    <!-- ===== FEEDBACK ===== -->
+    <div class="help-card">
+        <h2>📝 Feedback</h2>
+        <textarea id="feedback" placeholder="Write your feedback here..."></textarea>
+        <button onclick="submitFeedback()">Submit Feedback</button>
+    </div>
+
+</section>
+
+<script src="/javascript/help.js"></script>
+</body>
+</html>

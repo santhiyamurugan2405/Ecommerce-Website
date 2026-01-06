@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Cart | E-Shop</title>
+    <link rel="stylesheet" href="/css/yourcart.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+    <div class="nav-left">
+        <img src="/data/images/cart.png" class="logo" alt="logo">
+        <span class="brand">E-Shop</span>
+    </div>
+
+    <div class="nav-right">
+        <a href="index.html">Home</a>
+        <a href="orders.html">Orders</a>
+        <a href="login.html">Logout</a>
+    </div>
+</header>
+
+<!-- ===== CART SECTION ===== -->
+<section class="cart-section">
+    <h2>Your Cart</h2>
+
+    <p id="empty-msg">Your cart is empty 🛒</p>
+
+    <div id="cart-items"></div>
+
+    <div class="cart-summary">
+        <h3>Total: ₹<span id="total">0</span></h3>
+        <button onclick="placeOrder()">Place Order</button>
+    </div>
+</section>
+
+<script src="/javascript/yourcart.js"></script>
+</body>
+</html>

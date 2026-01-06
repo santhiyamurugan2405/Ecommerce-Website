@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Electronics | E-Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/electronics.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+    <div class="nav-left">
+        <img src="/data/images/cart.png" class="logo" alt="logo">
+        <span class="brand">E-Shop</span>
+    </div>
+
+    <div class="nav-center">
+        <input type="text" placeholder="Search electronics...">
+    </div>
+
+    <div class="nav-right">
+        <a href="/html/login.html">Login</a>
+        <a href="/html/profile.html">Profile</a>
+    </div>
+</header>
+
+<!-- ===== CATEGORY BAR ===== -->
+<nav class="category-bar">
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+    <ul>
+        <li><a href="grocery.html">Grocery</a></li>
+        <li><a href="cosmetics.html">Cosmetics</a></li>
+        <li><a href="electronics.html">Electronics</a></li>
+        <li><a href="furniture.html">Furniture</a></li>
+    </ul>
+</nav>
+
+<!-- ===== SIDE MENU ===== -->
+<div class="side-menu" id="sideMenu">
+    <span class="close-btn" onclick="toggleMenu()">✖</span>
+    <a href="index.html">Home</a>
+    <a href="profile.html">Profile</a>
+    <a href="orders.html">Orders</a>
+    <a href="yourcart.html">Your Cart</a>
+    <a href="help.html">Help</a>
+</div>
+
+<!-- ===== PAGE TITLE ===== -->
+<h2 class="page-title">Electronics Products</h2>
+
+<!-- ===== PRODUCTS ===== -->
+<section class="products">
+
+    <div class="card">
+        <img src="/data/images/moblie.jpg" alt="Mobile">
+        <h3>Smart Phone</h3>
+        <p>₹19,999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/laptop.jpg" alt="Laptop">
+        <h3>Laptop</h3>
+        <p>₹55,999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/headset.jpg" alt="Headset">
+        <h3>Headset</h3>
+        <p>₹1,999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/TV.jpg" alt="TV">
+        <h3>Smart TV</h3>
+        <p>₹39,999</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="/data/images/waching machine.webp" alt="Headset">
+        <h3>Waching Machine</h3>
+        <p>₹22,999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/ac.jpg" alt="TV">
+        <h3>AC</h3>
+        <p>₹49,999</p>
+        <button>Add to Cart</button>
+    </div>
+</section>
+<script src="/javascript/electronics.js"></script>
+</body>
+</html>

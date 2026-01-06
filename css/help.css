@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: #1F4959;
+    color: white;
+    padding: 14px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 28px;
+    filter: invert(1);
+}
+
+.brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* ===== HELP SECTION ===== */
+.help-section {
+    padding: 40px;
+    background: #f4f6f8;
+}
+
+.help-section h1 {
+    text-align: center;
+    color: #1F4959;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+/* ===== HELP CARD ===== */
+.help-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.help-card h2 {
+    margin-bottom: 12px;
+    color: #1F4959;
+}
+
+.help-card ul {
+    margin-left: 20px;
+}
+
+.help-card ul li {
+    margin-bottom: 8px;
+}
+
+/* ===== FAQ ===== */
+.faq h4 {
+    cursor: pointer;
+    background: #eaf3f6;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.faq p {
+    display: none;
+    padding: 10px;
+    color: #333;
+}
+
+/* ===== FEEDBACK ===== */
+textarea {
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 12px;
+    padding: 10px 20px;
+    background: #1F4959;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #163845;
+}

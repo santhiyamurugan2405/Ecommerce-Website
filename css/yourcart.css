@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: #1F4959;
+    color: white;
+    padding: 14px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 28px;
+    filter: invert(1);
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* ===== CART ===== */
+.cart-section {
+    padding: 40px;
+    background: #f4f6f8;
+    min-height: calc(100vh - 60px);
+}
+
+.cart-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#empty-msg {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+/* ===== CART ITEMS ===== */
+.cart-item {
+    background: white;
+    padding: 15px;
+    margin: 12px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item h4 {
+    margin-bottom: 5px;
+}
+
+.remove-btn {
+    background: crimson;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ===== SUMMARY ===== */
+.cart-summary {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cart-summary button {
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+    background: #1F4959;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cart-summary button:hover {
+    background: #163845;
+}

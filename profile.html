@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | E-Shop</title>
+    <link rel="stylesheet" href="/css/profile.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+    <div class="nav-left">
+        <img src="/data/images/cart.png" alt="logo" class="logo">
+        <span class="brand">E-Shop</span>
+    </div>
+
+    <div class="nav-center">
+        <input type="text" placeholder="Search products...">
+    </div>
+
+    <div class="nav-right">
+        <a href="login.html">Login</a>
+        <a href="profile.html">Profile</a>
+    </div>
+</header>
+
+<!-- ===== PROFILE SECTION ===== -->
+<section class="profile-section">
+    <div class="profile-card">
+        <h2>User Profile</h2>
+        <img src="/data/images/user.png" alt="User Avatar" class="avatar">
+
+        <div class="profile-info">
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Email:</strong> johndoe@gmail.com</p>
+            <p><strong>Phone:</strong> 9876543210</p>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Age:</strong> 25</p>
+        </div>
+
+        <button onclick="editProfile()">Edit Profile</button>
+    </div>
+</section>
+
+<script src="/javascript/profile.js"></script>
+</body>
+</html>

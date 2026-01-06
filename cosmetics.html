@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics | E-Shop</title>
+    <link rel="stylesheet" href="/css/cosmetics.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+    <div class="nav-left">
+        <img src="/data/images/cart.png" alt="logo" class="logo">
+        <span class="brand">E-Shop</span>
+    </div>
+
+    <div class="nav-center">
+        <input type="text" placeholder="Search cosmetics...">
+    </div>
+
+    <div class="nav-right">
+        <a href="login.html">Login</a>
+        <a href="profile.html">Profile</a>
+    </div>
+</header>
+
+<!-- ===== CATEGORY BAR ===== -->
+<nav class="category-bar">
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+    <ul>
+        <li><a href="grocery.html">Grocery</a></li>
+        <li><a href="cosmetics.html">Cosmetics</a></li>
+        <li><a href="electronics.html">Electronics</a></li>
+        <li><a href="furniture.html">Furniture</a></li>
+    </ul>
+</nav>
+
+<!-- ===== SIDE MENU ===== -->
+<div class="side-menu" id="sideMenu">
+    <span class="close-btn" onclick="toggleMenu()">✖</span>
+    <a href="index.html">Home</a>
+    <a href="profile.html">Profile</a>
+    <a href="orders.html">Orders</a>
+    <a href="yourcart.html">Your Cart</a>
+    <a href="help.html">Help</a>
+</div>
+
+
+<!-- ===== TITLE ===== -->
+<section class="category-title">
+    <h2>Cosmetics</h2>
+    <p>Beauty products for everyday care</p>
+</section>
+
+<!-- ===== PRODUCTS ===== -->
+<section class="products">
+
+    <div class="card">
+        <img src="/data/images/lipstick.webp" alt="Lipstick">
+        <h3>Lipstick</h3>
+        <p>₹399</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/foundation.webp" alt="Foundation">
+        <h3>Foundation</h3>
+        <p>₹899</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/facewash.jpg" alt="Face Wash">
+        <h3>Face Wash</h3>
+        <p>₹299</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/perfume.webp" alt="Perfume">
+        <h3>Perfume</h3>
+        <p>₹1299</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="/data/images/cream.jpg" alt="Skin Cream">
+        <h3>Skin Cream</h3>
+        <p>₹499</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="/data/images/soap.webp" alt="Skin Cream">
+        <h3>Soap</h3>
+        <p>₹99</p>
+        <button>Add to Cart</button>
+    </div>
+
+</section>
+
+<script src="/javascript/index.js"></script>
+</body>
+</html>
