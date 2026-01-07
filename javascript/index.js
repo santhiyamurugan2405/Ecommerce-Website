@@ -27,3 +27,22 @@ function toggleMenu() {
 
     menu.style.right = (menu.style.right === "0px") ? "-260px" : "0px";
 }
+function openProduct(name, price, image) {
+
+    const product = {
+        name: name,
+        price: price,
+        image: image,
+        delivery: "₹40",
+        offer: "10% OFF",
+        reviews: [
+            "⭐⭐⭐⭐⭐ Excellent product",
+            "⭐⭐⭐⭐ Value for money"
+        ]
+    };
+
+    localStorage.setItem("selectedProduct", JSON.stringify(product));
+
+    window.location.href = "product.html";
+}
+

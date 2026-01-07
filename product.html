@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="/css/product.css">
+</head>
+<body>
+
+<header class="navbar">
+    <span class="brand">S-Mart</span>
+</header>
+
+<main class="product-page">
+
+    <!-- LEFT: IMAGE GALLERY -->
+    <div class="image-section">
+        <div class="thumbnails">
+            <img onclick="changeImage(this)" />
+            <img onclick="changeImage(this)" />
+            <img onclick="changeImage(this)" />
+        </div>
+        <img id="mainImage" class="main-image">
+    </div>
+
+    <!-- CENTER: PRODUCT DETAILS -->
+    <div class="details-section">
+        <h1 id="name"></h1>
+
+        <p class="rating">⭐⭐⭐⭐☆ (2,451 ratings)</p>
+
+        <p class="price" id="price"></p>
+
+        <p class="deal">Limited time deal</p>
+
+        <ul class="offers">
+            <li>✔ Bank Offer Available</li>
+            <li>✔ No Cost EMI</li>
+            <li>✔ Cashback Available</li>
+        </ul>
+
+        <p class="delivery">
+            FREE Delivery <strong id="delivery"></strong>
+        </p>
+    </div>
+
+    <!-- RIGHT: BUY BOX -->
+    <div class="buy-section">
+        <h2 id="priceBox"></h2>
+        <p class="stock">In Stock</p>
+
+        <button class="cart-btn">Add to Cart</button>
+        <button class="buy-btn">Buy Now</button>
+    </div>
+
+</main>
+
+<!-- REVIEWS -->
+<section class="reviews">
+    <h2>Customer Reviews</h2>
+    <ul id="reviews"></ul>
+</section>
+
+<script src="/javascript/product.js"></script>
+</body>
+</html>

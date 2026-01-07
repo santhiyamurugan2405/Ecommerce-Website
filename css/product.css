@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+
+.product-container {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+#product-img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+.product-details h2 {
+    color: #1F4959;
+}
+
+.product-details h3 {
+    color: #e67e22;
+    margin: 10px 0;
+}
+
+.delivery, .offer {
+    margin: 10px 0;
+}
+
+.offer {
+    color: green;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #1F4959;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.reviews {
+    margin: 40px;
+}
+
+.reviews li {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
