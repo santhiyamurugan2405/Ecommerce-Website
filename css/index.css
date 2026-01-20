@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     background: #1F4959;
-    padding: 14px 20px;
+    padding: 5px 20px;
     color: white;
 }
 
@@ -48,13 +48,16 @@
 }
 
 .nav-right a:hover {
-    color: #E76F51;
+    color: #519fe7;
 }
 
 
 /* ===== CATEGORY BAR ===== */
 .category-bar {
-    background: #2F6F7E;
+    background: #153b66;
+}
+.category-bar div{
+    color: rgb(13, 68, 94);
 }
 
 .category-bar ul {
@@ -62,17 +65,21 @@
     justify-content: center;
     list-style: none;
     gap: 35px;
-    padding: 12px;
+    padding: 6px;
 }
 
 .category-bar li {
     font-weight: 600;
     cursor: pointer;
-    color: #fff;
+    color: #ffffff;
 }
 
-.category-bar li:hover {
-    color: #FFD166;
+.category-bar ul li a:hover,
+.category-bar ul li a.active {
+    background: #1F4959;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
 }
 /* ===== SIDE MENU ===== */
 .side-menu {
@@ -112,7 +119,7 @@
 /* Remove default link style */
 .category-bar a {
     text-decoration: none;   /* remove underline */
-    color: white;            /* normal text color */
+    color: rgb(13, 68, 94);            /* normal text color */
     font-weight: bold;
 }
 
@@ -124,13 +131,13 @@
 .menu-icon {
     font-size: 28px;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 2px;
     color: white;
 }
 
 /* CATEGORY BAR FIX */
 .category-bar {
-    background: #1F4959;
+    background: #F4F6F8;
     display: flex;
     align-items: center;
     padding: 12px 20px;
@@ -186,6 +193,13 @@
     color: white;
     display: block;
     text-align: right;
+}
+/* ===== PAGE TITLE ===== */
+.page-title {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #4fb0c6, #1F4959);
+    color: white;
 }
 
 /* CLOSE BUTTON */
@@ -252,5 +266,5 @@
 }
 
 .card button:hover {
-    background: #E76F51;
+    background: #195792;
 }

@@ -20,8 +20,8 @@
     </div>
 
     <div class="nav-right">
-        <a href="/html/login.html">Login</a>
-        <a href="/html/profile.html">Profile</a>
+        <a href="/login.html">Login</a>
+        <a href="/profile.html">Profile</a>
     </div>
 </header>
 
@@ -31,11 +31,9 @@
     <ul>
         <li><a href="grocery.html">Grocery</a></li>
         <li> <a href="cosmetics.html">Cosmetics</a></li>
-        <li>Dresses</li>
-        <li>Electronics</li>
-        <li>Furniture</li>
-        <li>Toys</li>
-        <li>Books</li>
+        <li><a href="dresses.html">Dresses</a></li>
+        <li><a href="electronics.html">Electronics</a></li>
+        <li><a href="furniture.html">Furniture</a></li>
     </ul>
 </nav>
 <!-- ===== SIDE MENU ===== -->
@@ -62,10 +60,14 @@
         <li>More</li>
     </ul>
 </div>
+<div class="page-title">
+    <h2>S-Mart Sale Live Now</h2>
+    <p>Shop Smart - Save Big!</p>
+</div>
 <!-- ===== PRODUCT CARDS ===== -->
 <section class="products">
 
-    <div class="card">
+    <div class="card"> 
         <img src="/data/images/kids.jpg" alt="Kids Wear">
         <h3>Kids Wear</h3>
         <p>₹799</p>
@@ -87,20 +89,10 @@
     </div>
 
     <div class="card">
-    <img src="/data/images/moblie.jpg" 
-         alt="Mobile"
-         onclick="openProduct(
-            'Smart Phone',
-            '₹119,999',
-            '/data/images/moblie.jpg',
-            '₹40',
-            '10% OFF',
-            ['Excellent product','Value for money']
-         )">
-
-    <h3>Smart Phone</h3>
-    <p>₹119,999</p>
-    <button onclick="event.stopPropagation()">Add to Cart</button>
+        <img src="/data/images/moblie.jpg" alt="Mobile">
+        <h3>Smart Phone</h3>
+        <p>₹119,999</p>
+        <button onclick="event.stopPropagation()">Add to Cart</button>
     </div>
 
     <div class="card">

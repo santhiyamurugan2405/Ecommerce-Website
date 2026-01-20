@@ -2,39 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Dresses | E-Shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grocery | E-Shop</title>
-    <link rel="stylesheet" href="/css/grocery.css">
+    <link rel="stylesheet" href="/css/dresses.css">
 </head>
 <body>
 
 <!-- ===== NAVBAR ===== -->
 <header class="navbar">
     <div class="nav-left">
-        <img src="/data/images/cart.png" alt="logo" class="logo">
+        <img src="/data/images/cart.png" class="logo" alt="logo">
         <span class="brand">E-Shop</span>
     </div>
 
     <div class="nav-center">
-        <input type="text" placeholder="Search products...">
+        <input type="text" placeholder="Search dresses...">
     </div>
 
     <div class="nav-right">
-        <a href="/login.html">Login</a>
-        <a href="/profile.html">Profile</a>
+        <a href="/html/login.html">Login</a>
+        <a href="/html/profile.html">Profile</a>
     </div>
 </header>
 
 <!-- ===== CATEGORY BAR ===== -->
 <nav class="category-bar">
     <div class="menu-icon" onclick="toggleMenu()">☰</div>
-
     <ul>
         <li><a href="grocery.html">Grocery</a></li>
-        <li><a href="cosmetics.html">Cosmetics</a></li>
+        <li> <a href="cosmetics.html">Cosmetics</a></li>
         <li><a href="dress.html" class="active">Dresses</a></li>
         <li><a href="electronics.html">Electronics</a></li>
         <li><a href="furniture.html">Furniture</a></li>
+        
     </ul>
 </nav>
 
@@ -48,57 +48,61 @@
     <a href="help.html">Help</a>
 </div>
 
-<!-- ===== CATEGORY TITLE ===== -->
-<section class="category-title">
-    <h2>Grocery</h2>
-</section>
+<!-- ===== PAGE TITLE ===== -->
+<h2 class="page-title">Dress Collection</h2>
 
 <!-- ===== PRODUCTS ===== -->
 <section class="products">
 
     <div class="card">
-        <img src="/data/images/rice.jpg" alt="Rice">
-        <h3>Rice 5kg</h3>
-        <p>₹400</p>
+        <img src="/data/images/kurthi.webp" alt="Kurti">
+        <h3>Stylish Kurti</h3>
+        <p>₹1,499</p>
         <button>Add to Cart</button>
     </div>
 
     <div class="card">
-        <img src="/data/images/oil.jpg" alt="Cooking Oil">
-        <h3>Cooking Oil 1L</h3>
-        <p>₹150</p>
+        <img src="/data/images/d3.webp" alt="Saree">
+        <h3>Silk Saree</h3>
+        <p>₹3,999</p>
         <button>Add to Cart</button>
     </div>
 
     <div class="card">
-        <img src="/data/images/sugar.jpg" alt="Sugar">
-        <h3>Sugar 2kg</h3>
-        <p>₹90</p>
+        <img src="/data/images/d5.webp" alt="Jeans">
+        <h3>Denim Jeans</h3>
+        <p>₹1,899</p>
         <button>Add to Cart</button>
     </div>
 
     <div class="card">
-        <img src="/data/images/dal.jpeg" alt="Dal">
-        <h3>Dal 1kg</h3>
-        <p>₹120</p>
+        <img src="/data/images/d2.webp" alt="T-shirt">
+        <h3>Cotton T-Shirt</h3>
+        <p>₹699</p>
         <button>Add to Cart</button>
     </div>
 
     <div class="card">
-        <img src="/data/images/tea.jpg" alt="Tea">
-        <h3>Tea 500g</h3>
-        <p>₹250</p>
+        <img src="/data/images/d4.jpg" alt="Frock">
+        <h3>Frock</h3>
+        <p>₹3999</p>
         <button>Add to Cart</button>
     </div>
+
     <div class="card">
-        <img src="/data/images/chilli.jpg" alt="Tea">
-        <h3>Chilli Powder 500g</h3>
-        <p>₹280</p>
+        <img src="/data/images/jacket.jpg" alt="Jacket">
+        <h3>Winter Jacket</h3>
+        <p>₹2,499</p>
         <button>Add to Cart</button>
     </div>
 
 </section>
 
-<script src="/javascript/index.js"></script>
+<script>
+function toggleMenu() {
+    document.getElementById("sideMenu").classList.toggle("show");
+}
+</script>
+
 </body>
 </html>
